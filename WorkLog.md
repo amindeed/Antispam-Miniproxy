@@ -101,3 +101,11 @@ string '{"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/e
 
 *Creepy etheral voice* : Mailchimp executed subscribe
 ```
+
+## <u>2016-01-24 :</u>
+
+Being refactoring `mc-API-connector.php` :
+- Backend code now is in the file `subscribe.php`
+- Hardcoded functions calls debugging (temporarly) : Removed `debug` flag and code. `curl` outputs and API calls responses are now all logged to an external file `CurlDebugLog.txt` on each function call.
+- Added code to verify target MailChimp host SSL certificate using [Mozilla CA bundle](https://github.com/bagder/ca-bundle) (instead of ignoring, as in the original code).
+- For testing purposes: No Switch/Case statements upon the submitted value of the `action` POST parameter. Functions are manually commented in and out depending on the action (`subscribe`, `checklist` or `unsubscribe`) needed.
