@@ -114,3 +114,8 @@ Been refactoring `mc-API-connector.php` :
 ## <u>2016-01-26 :</u>
 
 Testing some basic frontend email address validation code : https://jsbin.com/ozeyag/19/edit?html,js,output
+
+
+## <u>2016-09-21 :</u>
+
+Downloaded a copy of **[Creative Tim](http://www.creative-tim.com/product/coming-sssoon-page)**'s **"Coming Sssoon-Page"** [source code](https://github.com/timcreative/coming-sssoon-page). Stripped all non needed code and components.
