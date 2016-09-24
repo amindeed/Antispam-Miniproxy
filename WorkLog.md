@@ -119,3 +119,8 @@ Testing some basic frontend email address validation code : https://jsbin.com/oz
 ## <u>2016-09-21 :</u>
 
 Downloaded a copy of **[Creative Tim](http://www.creative-tim.com/product/coming-sssoon-page)**'s **"Coming Sssoon-Page"** [source code](https://github.com/timcreative/coming-sssoon-page). Stripped all non needed code and components.
+
+
+## <u>2016-09-24 :</u>
+
+Been customizing Creative Tim's "Coming Sssoon Page" to create a basic responsive "Coming Soon" page as a frontend.
