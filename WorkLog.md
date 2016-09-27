@@ -124,3 +124,8 @@ Downloaded a copy of **[Creative Tim](http://www.creative-tim.com/product/coming
 ## <u>2016-09-24 :</u>
 
 Been customizing Creative Tim's "Coming Sssoon Page" to create a basic responsive "Coming Soon" page as a frontend.
+
+
+## <u>2016-09-27 :</u>
+
+Further customizations : removed page's header and footer, and a couple of other CSS tweaks.

@@ -341,7 +341,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     padding: 10px 16px;
 }
 
-/*           Navigation Bar             */
+/*
+           Navigation Bar             
 .navbar{
     border: 0 none;
     transition: all 0.4s;
@@ -491,7 +492,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     text-transform: uppercase;
 }
 .dropdown-menu > li > a {
-/*     border-bottom: 1px solid #DDDDDD; */
+/#     border-bottom: 1px solid #DDDDDD; #/
     padding: 6px 15px;
     color: #777777;
 }
@@ -647,7 +648,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
         background-color: #434343;
     }
     
-}
+} */
 .modal-backdrop.in {
     opacity: 0.25;
 }
@@ -723,7 +724,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+    margin-top: 70px;
     z-index: 3;
 }
 .main .logo.cursive{
@@ -744,12 +745,12 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 25px;
     
 }
 .main .subscribe .info-text{
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size: 15px;
+    margin-bottom: 25px;
 }
 #video_background {
     position: fixed;
@@ -777,23 +778,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     z-index: 1;
 }
 
-.footer{
-    position: relative;
-    bottom: 20px;
-    right: 0px;
-    width: 100%;
-    color: #AAAAAA;
-    z-index: 4;
-    text-align: right;
-    margin-top: 50px;
-}
-.footer a{
-    color: #FFFFFF;
-}
-.footer .heart{
-    color: #FF3B30;
-}
-
 @media (min-width:219px){        
     .main .subscribe .form-group{
         width: auto;
@@ -811,10 +795,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     .main .subscribe .form-group{
         width: 190px;
     }   
-    .footer{
-        position: fixed;
-        bottom: 20px;
-    }
 }
 @media (min-width:1200px){        
     .main .subscribe .form-group{
