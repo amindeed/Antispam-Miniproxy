@@ -129,3 +129,10 @@ Been customizing Creative Tim's "Coming Sssoon Page" to create a basic responsiv
 ## <u>2016-09-27 :</u>
 
 Further customizations : removed page's header and footer, and a couple of other CSS tweaks.
+
+
+## <u>2016-09-30 :</u>
+
+- Used jQuery bxSlider to add vertically sliding titles of upcoming blog posts.
+- Cleaned CSS files using [Dust-Me Selectors](https://addons.mozilla.org/en-US/firefox/addon/dust-me-selectors/) FireFox Addon.
+- Overall tweaks and customizations.

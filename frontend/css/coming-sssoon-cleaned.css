@@ -1,0 +1,284 @@
+/* 
+
+Made with love by Creative Tim (http://www.creative-tim.com)
+
+*/
+
+body{
+    
+}
+.form-control::-moz-placeholder{
+   color: #DDDDDD;
+   opacity: 1;
+}
+.form-control:-moz-placeholder{
+   color: #DDDDDD;
+   opacity: 1;  
+}  
+.form-control::-webkit-input-placeholder{
+   color: #DDDDDD;
+   opacity: 1; 
+} 
+.form-control:-ms-input-placeholder{
+   color: #DDDDDD;
+   opacity: 1; 
+}
+/*     General overwrite     */
+a{
+    color: #2C93FF;
+}
+a:hover, a:focus {
+    color: #1084FF;
+}
+a:focus, a:active, 
+button::-moz-focus-inner,
+select::-moz-focus-inner,
+ {
+    outline : 0;
+}
+
+/*           Font Smoothing      */
+
+h1, h2, h3, h4, h5, h6, p{
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*           Typography          */
+
+h1, h2, h3, h4{
+    font-weight: 400;
+    margin: 30px 0 15px;
+}
+
+h1 {
+    font-size: 52px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+    margin: 20px 0 10px;
+}
+h4{
+    font-size: 22px;
+}
+h5 {
+    font-size: 16px;
+}
+h6{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+p{
+    font-size: 16px;
+    line-height: 1.6180em;
+}
+
+/*           Animations              */
+.form-control{
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+
+.btn{
+    border-width: 2px;
+    background-color: rgba(0,0,0,.0);
+    font-weight: 400;
+    opacity: 0.8;
+    padding: 8px 16px;
+}
+.btn-primary {
+    color: #3472F7;
+    border-color: #3472F7;
+}
+.btn:hover{
+    background-color: rgba(0,0,0,.0);
+    opacity: 1;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #1D62F0;
+    border-color: #1D62F0;
+    background-color: rgba(0,0,0,.0);
+}
+.btn:active {
+    background-image: none;
+    box-shadow: none;
+    
+}
+
+
+/*           Buttons fill .btn-fill           */
+.btn-fill{
+    color: #FFFFFF;
+    opacity: 1;
+}
+.btn-fill:hover, .btn-fill:active, .btn-fill:focus{
+    color: #FFFFFF;
+}
+.btn-primary.btn-fill{
+    background-color: #3472F7;
+    border-color: #3472F7;
+}
+.btn-primary.btn-fill:hover, .btn-primary.btn-fill:focus, .btn-primary.btn-fill:active{
+    border-color: #1D62F0;
+    background-color: #1D62F0;
+}
+
+/*          End Buttons fill          */
+
+
+
+/*             Inputs               */
+.form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px;
+    box-shadow: none;
+    color: #444444;
+    height: 38px;
+    padding: 6px 16px;
+}
+
+.form-control:focus {
+    background-color: #FFFFFF;
+    border: 1px solid #9A9A9A;
+    box-shadow: none;
+    outline: 0 none;
+}
+.form-control.transparent{
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(238, 238, 238, 0.27);
+    color: #FFFFFF;
+}
+.form-control.transparent:focus{
+    border-color: #FFFFFF;
+    
+}
+
+
+
+.main{
+    background-position: center center;
+    background-size: cover;
+    height: auto;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    width: auto;
+}
+.cover{
+    position: fixed;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.cover.blue{
+    background-color: rgba(5, 31, 60, 0.6);
+}
+
+
+.main .logo{
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 300;
+    position: relative;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+    margin-top: 70px; /* 20px optimal for smartphone screen */
+    z-index: 3;
+}
+.main .logo.cursive{
+    font-family: 'V5 Prophit',cursive;
+	text-shadow: 1px 1px 1px #FFFFFF;
+    font-size: 38px;
+    
+}
+.main .content{
+    position: relative;
+    z-index: 4;
+}
+.main .subscribe .info-text{
+    font-size: 28px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.main .subscribe .info-text{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+@media (min-width:219px){        
+    .main .subscribe .form-group{
+        width: auto;
+    }   
+    .main .subscribe .form-inline .btn{
+        width: 100%;
+    }   
+}
+@media (min-width:768px){        
+    .main .subscribe .form-inline .btn{
+        width: auto;
+    }   
+}
+@media (min-width:991px){        
+    .main .subscribe .form-group{
+        width: 190px;
+    }   
+}
+@media (min-width:1200px){        
+    .main .subscribe .form-group{
+        width: 250px;
+    }   
+}
+
+@media only screen and (max-height:460px){
+    /*
+	Exact limit for Samsung Galaxy Grand Duo Plus screen:
+	452px for Chrome Dev, 460px for Firefox. 460px is the common working value.
+	Under both of these values, the page's "margin-top" will turn "70px" on phone's browser.
+	*/
+	.main .logo{
+		margin-top: 20px;
+    }
+
+}
+
+
+
+
+/*          For demo purpose         */
+
+
+
+
+
+
+@media (max-width:768px){
+    .main .container{
+        margin-bottom: 50px;
+    }
+
+}
+
+@font-face {
+  font-family: 'V5 Prophit';
+  font-style: normal;
+  font-weight: 400;
+  src: local('V5 Prophit'), local('V5 Prophit'), url(./V5PRF___.TTF) format('truetype');
+}
