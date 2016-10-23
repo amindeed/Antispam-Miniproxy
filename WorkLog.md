@@ -9,18 +9,6 @@ I've been adapting [`MailChimp-API-v3.0-PHP-cURL-example`](https://github.com/ac
 - Created basic HTML form for tests; turning debugs on.
 - Code worked pretty well for `subscribe` and `checklist` actions. I've been testing some crazy edge cases :
 
-_▶ Check email «correct_address@correct-domain.com» in list “Amindeed” :_
-
-```
-Address added @10:03
-
-*Robot voice* : Bleep bleep. Debugging is on master.
-
-string '{"id":"60955a1aba04b7ed54b32156d7c279cc","email_address":"correct_address@correct-domain.com","unique_email_id":"c4c3cd4990","email_type":"html","status":"pending","merge_fields":{},"stats":{"avg_open_rate":0,"avg_click_rate":0},"ip_signup":"41.251.115.176","timestamp_signup":"2015-12-31 08:06:16","ip_opt":"","timestamp_opt":"","member_rating":2,"last_changed":"2015-12-31 08:06:17","language":"en","vip":false,"email_client":"","location":{"latitude":0,"longitude":0,"gmtoff":0,"dstoff":0,"country_code":"","timezone":""},'... (length=2307)
-
-pending
-```
-
 
 _▶ Check email «correct_address@correct-domain.com» in list “Amindeed” :_
 
@@ -90,17 +78,6 @@ string '{"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/e
 *Creepy etheral voice* : Mailchimp executed subscribe
 ```
 
-_`amine@£` :_
-
-```
-*Robot voice* : Bleep bleep. Debugging is on master.
-
-*Robot voice* : Starting subscribe
-
-string '{"type":"http://developer.mailchimp.com/documentation/mailchimp/guides/error-glossary/","title":"Invalid Resource","status":400,"detail":"The resource submitted could not be validated. For field-specific details, see the 'errors' array.","instance":"","errors":[{"field":"","message":"Schema describes object, NULL found instead"}]}' (length=332)
-
-*Creepy etheral voice* : Mailchimp executed subscribe
-```
 
 ## <u>2016-01-24 :</u>
 
@@ -136,3 +113,23 @@ Further customizations : removed page's header and footer, and a couple of other
 - Used jQuery bxSlider to add vertically sliding titles of upcoming blog posts.
 - Cleaned CSS files using [Dust-Me Selectors](https://addons.mozilla.org/en-US/firefox/addon/dust-me-selectors/) FireFox Addon.
 - Overall tweaks and customizations.
+
+
+## <u>2016-10-23 :</u>
+
+- Backend : IP/Domain blacklist check draft/testing code :
+	- Documenting about IP address and domain blacklisting in the context of web form submission and newsletter subscription. Established a list of most popular and reputable public blacklists to check against. In a not particular order :
+        - Spamhaus ZEN
+        - Spamhaus DBL
+        - Barracuda BRBL
+        - SpamCop SCB
+        - URIBL IP
+        - URIBL Domains
+        - HoneyPot HTTP:BL
+        - Backscatterer.org
+	- Two sample source codes : using both PHP [dns_get_record](https://www.php.net/manual/en/function.dns-get-record.php) native function and [Net_DNS2](https://pear.php.net/package/Net_DNS2) PHP resolver library.
+- Frontend :
+    - No separate CSS file for bxslider; styles merged into 'coming-sssoon.css'.
+    - removed draft and non needed code.
+    - Added other "V5 Prophit" font formats for broader compatibility.
+    - Page responsiveness seems to have been a little bit messed up since 2016-09-30 commit.
