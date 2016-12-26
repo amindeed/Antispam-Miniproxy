@@ -133,3 +133,8 @@ Further customizations : removed page's header and footer, and a couple of other
     - removed draft and non needed code.
     - Added other "V5 Prophit" font formats for broader compatibility.
     - Page responsiveness seems to have been a little bit messed up since 2016-09-30 commit.
+
+
+## <u>2016-12-26 :</u>
+
+- Added random notes exported from Evernote; been collected and summarized since 05-Oct-16.
