@@ -1,14 +1,13 @@
 
-# Minimalist Secure Form
+# Minimalist Form
 
-Minimalist form webapp with a focus on security and spambots prevention.
+Minimalist web form template, with a focus on security and spambots prevention.
 
 **Main obtjectives :**
-- Static site, along with a backend for non-Javascript fallback.
 - Exclusive/Forced use of HTTPS.
-- Evaluating inbound domains and IP addresses: checking HTTP headers (User Agent, HTTP referer…), DNS blacklist status, MX records…
+- Evaluating inbound domains and IP addresses: _checking HTTP headers (User Agent, HTTP referer…), DNS blacklist status, MX records…_
 - Sanitizing and validating input data.
-- Hidden fields, CAPTCHA, double Opt-in, interfacing with Fail2ban…
+- CAPTCHA, double Opt-in, interfacing with Fail2ban…
 - More to come...
 
 **Repository structure :**
