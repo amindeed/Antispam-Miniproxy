@@ -1,0 +1,33 @@
+
+.textlogo{
+	font-family: 'V5 Prophit',cursive;
+	font-size: 38px;
+}
+
+/**
+ * bxSlider v4.2.5
+ * Copyright 2013-2015 Steven Wanderski
+ * Licensed under MIT (http://opensource.org/licenses/MIT)
+ */
+ 
+.bx-wrapper ul li {
+	height: 50px;
+}
+.bxslider {
+  font-family: Georgia !important;
+  font-size: 17px !important;
+  text-shadow: 0.5px 0.5px 0.5px #FFFFFF !important;
+  margin: 0;
+  padding: 0;
+}
+ul.bxslider {
+  list-style: none;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+	font-family:"V5 Prophit";
+	src:url("V5PRF___.eot?") format("eot"),url("V5PRF___.woff") format("woff"),url("V5PRF___.ttf") format("truetype"),url("V5PRF___.svg#V5ProphitDot") format("svg");
+	font-weight:400;
+	font-style:normal;
+}
