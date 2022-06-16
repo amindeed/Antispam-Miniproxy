@@ -1,5 +1,5 @@
 
-# Anti-spam API Proxy
+# Antispam Miniproxy
 
 _For the time being, it is a project of newsletter subscription form template (typically for “Coming Soon” pages) trying to evolve into an an “anti-spam API proxy” implementation._
 
@@ -7,7 +7,8 @@ _For the time being, it is a project of newsletter subscription form template (t
 - Exclusive/Forced use of HTTPS.
 - Evaluating inbound domains and IP addresses: _checking HTTP headers (User Agent, HTTP referer…), DNS blacklist status, MX records…_
 - Sanitizing and validating input data.
-- CAPTCHA, double Opt-in, interfacing with Fail2ban…
+- CAPTCHA, double Opt-in
+- Use `fail2ban` to manually block spammy IP addresses and hostnames for a specific time period.
 - _Well, one can dare to borrow the content of Wikipedia's [“Anti-spam techniques”](https://en.wikipedia.org/wiki/Anti-spam_techniques) page as a [very] long-term TODO list..._
 
 **Repository structure :**

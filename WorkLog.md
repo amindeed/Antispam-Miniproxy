@@ -1,11 +1,12 @@
 
 # WorkLog
 
-## 2020-03-05
+## 2021-03-05
 
 - Restructured the repository:
     - Added separate directory for Python/Django code.
     - Put all old code under `src/PHP/` _(to be archived)_.
+    - Initiated a Django app.
 
 ## 2016-12-26 :
 
